@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #18171D;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, p {
+  color: #DFDDE0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: linear-gradient(
+    90deg,
+    rgba(47,28,42,1)0%,
+    rgba(45,54,61,1)50%,
+    rgba(19,41,65,1)100%
+    );
+  gap: 20px;
+  padding: 20px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-title i {
+  font-size: 7vh;
+  color: #BA8250;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 20px
+}
+
+.header-nav ul li a {
+  font-size: 17px;
+  color: #DFDDE0;
+  display: block;
+}
+
+.header-nav ul li a:hover {
+  color: #BA8250;
+}
+
+.header-contact ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-contact ul li a {
+  font-size: 17px;
+  color: #DFDDE0;
+}
+
+.header-contact ul li a:hover {
+  color: #BA8250;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.car-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.car-description-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.car-image {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.car-image h2, .car-image p {
+  color: #18171D;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colors-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.circle-button {
+  border: none;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;  
+}
+
+.red:focus {
+  opacity: 0.5;
+  outline: none;
+}
+
+.black {
+  background-color: black;  
+}
+
+.black:focus {
+  opacity: 0.5;
+  outline: none;  
+}
+
+.gray {
+  background-color: gray;  
+}
+
+.gray:focus {
+  opacity: 0.5;
+  outline: none;  
+}
+
+.green {
+  background-color: green;  
+}
+
+.green:focus {
+  opacity: 0.5; 
+  outline: none; 
+}
+
+.orange {
+  background-color: orange;  
+}
+
+.orange:focus {
+  opacity: 0.5; 
+  outline: none; 
+}
+
+.sky {
+  background-color: skyblue;  
+}
+
+.sky:focus {
+  opacity: 0.5;  
+  outline: none;
+}
+
+.blue {
+  background-color: blue;  
+}
+
+.blue:focus {
+  opacity: 0.5;  
+  outline: none;
+}
+
+#rojo_metalico {
+  display: block;
+}
+
+#negro_profundo, #gris_carbonizado, #verde_metalico, #naranja_metalica, #azul_claro, #azul_atlas {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.links-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.links-container a {
+  color: inherit;
+}
+
+.links-container a:visited {
+  color: inherit;
+}
+
+.links i {
+  font-size: 50px;
+}

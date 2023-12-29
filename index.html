@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b40d7bcf6.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="container">
+    <script src="script.js"></script>
+    <header class="header">
+      <div class="header-title">
+        <i class="fa-solid fa-car"></i>
+        <h1>CAR DEALERSHIP CENTER</h1>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Vehículos</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Posventa</a></li>
+        </ul>
+      </nav>
+      <div class="header-contact">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-location-dot"></i> Concesionarios</a></li>
+          <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="car">
+      <h2 class="car-title">Ford Mustang</h2>
+      <div class="car-description">
+        <h3 class="car-description-title">Especificaciones</h3>
+        <div class="car-description-list">
+          <p>Precio: US$ 59,990.00 - S/. 233,961.00</p>
+          <p>Motor: 5.0L TiVCT V8</p>
+          <p>Asientos: 4</p>
+        </div>
+      </div>
+      <div class="car-image">
+        <h2>Colores</h2>
+        <div class="car-images">
+          <ul class="images-container">
+            <li><img id="rojo_metalico" src="images/rojo_metalico.png" alt="mustang rojo metalico"></li>
+            <li><img id="negro_profundo" src="images/negro_profundo.png" alt="mustang negro profundo"></li>
+            <li><img id="gris_carbonizado" src="images/gris_carbonizado.png" alt="mustang gris carbonizado"></li>
+            <li><img id="verde_metalico" src="images/verde_metalico.png" alt="mustang verde metalico"></li>
+            <li><img id="naranja_metalica" src="images/naranja_metalica.png" alt="mustang naranja metalica"></li>
+            <li><img id="azul_claro" src="images/azul_claro.png" alt="mustang azul claro"></li>
+            <li><img id="azul_atlas" src="images/azul_atlas.png" alt="mustang azul atlas"></li>
+          </ul>
+        </div>
+        <div class="car-colors">
+          <ul class="colors-container">
+            <li><button id="red" class="circle-button red" onclick="change_color('rojo_metalico')"></button></li>
+            <li><button class="circle-button black" onclick="change_color('negro_profundo')"></button></li>
+            <li><button class="circle-button gray" onclick="change_color('gris_carbonizado')"></button></li>
+            <li><button class="circle-button green" onclick="change_color('verde_metalico')"></button></li>
+            <li><button class="circle-button orange" onclick="change_color('naranja_metalica')"></button></li>
+            <li><button class="circle-button sky" onclick="change_color('azul_claro')"></button></li>
+            <li><button class="circle-button blue" onclick="change_color('azul_atlas')"></button></li>
+          </ul>
+        </div>
+        <p>Haz Click para cambiar los colores</p>
+
+      </div>
+      
+
+      </div>
+
+    </main>
+    <footer class="footer">
+      <h2>Elaborado por: Alvaro Torres</h2>
+      <div class="links-container">
+        <h3>Enlaces:</h3>
+        <a class="links" href="https://github.com/AlvaroJTorres"><i class="fa-brands fa-github"></i></a>
+        <a class="links" href="https://www.linkedin.com/in/alvaro-julian-torres-malla/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
